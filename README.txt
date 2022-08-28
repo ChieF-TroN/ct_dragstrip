@@ -1,6 +1,13 @@
 To purchase CT_Dragstrip, please visit the link below!
 https://forum.cfx.re/t/paid-standalone-ct-dragstrip-fully-functioning-drag-light-bradenton-motorpark-speedway-fl2k/4769739
 
+Update from 3.1 to 3.2
+- Fixed randomized timers for each race.
+- Removed cfg.randomTime
+- Added cfg.randomTimeMin
+- Added cfg.randomTimeMax
+- Feature: Added ability to customize notifications. Default supported notifications: t-notify, qb, vrp, esx, okokNotify, with the ability to add your own notifications.
+
 Update from 3.0 to 3.1
 - Added Betting system - compatible with vRP, ESX, QBCore, and Standalone.
 - Added Framework varible in config.
