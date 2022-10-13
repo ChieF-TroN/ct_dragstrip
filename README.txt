@@ -1,7 +1,4 @@
-Thank you for your purchase of CT_DragTree! v3.1
-
-If you have any questions, please post them on the CT_DragTree FiveM Forums Thread:
-
+To purchase CT_Dragstrip, please visit the link below!
 https://forum.cfx.re/t/paid-standalone-ct-dragstrip-fully-functioning-drag-light-bradenton-motorpark-speedway-fl2k/4769739
 
 Installation:
