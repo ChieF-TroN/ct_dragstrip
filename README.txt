@@ -1,5 +1,33 @@
-To purchase CT_Dragstrip, please visit the link below!
+Thank you for your purchase of CT_DragTree! v3.1
+
+If you have any questions, please post them on the CT_DragTree FiveM Forums Thread:
+
 https://forum.cfx.re/t/paid-standalone-ct-dragstrip-fully-functioning-drag-light-bradenton-motorpark-speedway-fl2k/4769739
+
+Installation:
+
+Download the following dependencies first:
+PolyZone:
+https://github.com/mkafrin/PolyZone
+T-Notify:
+https://github.com/TasoOneAsia/t-notify
+
+Add the following to your server.cfg:
+ensure PolyZone
+ensure t-notify
+ensure ct_dragstrip
+
+**NOTE** If you do not wish to use the Sandy Shores or Fort Zancudo Tracks, remove them from the stream folder. **DO NOT** Remove the [dragtree] folder.
+
+Modifications:
+client/_polyzones.lua -- Add/Modify Polyzones for each track
+shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 3.2 to 3.3
+- Moved all notifications server side.
+- Made the official time notifications available to all within cfg.chatDistance
+- Added cfg.announceOfficialTimesToAllNotification toggle for the mentioned above
+- QB-Core Chat/Notifications now use character names instead of steam name
 
 Update from 3.1 to 3.2
 - Fixed randomized timers for each race.
@@ -15,6 +43,7 @@ Update from 3.0 to 3.1
 - Betting system is in a pool format, you will win the percentage of the total bet for your lane determined by how much you put in. 
 Example: Left lane has 2 bets, 500$ each, and right lane has 1 bet 500$. Left Lane wins, the pot is split between the 2 500$ bets, 50/50.
 Example2: Left lane has 2 bets, first bet 250$, second bet 750$, right lane has 1 bet, 1000$. Left lane wins, pot is split, 25/75. So you'd get your original bet back + whatever percentage you put in.
+
 
 Update from 2.4 to 3.0
 - Refactored code to handle multi-track support.
