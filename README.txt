@@ -20,6 +20,9 @@ Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
 
+Update from 3.4 to 3.5
+- Updated ESX Core Getter
+
 Update from 3.3 to 3.4
 - Added Support for ct_dragstrip_elo
 
