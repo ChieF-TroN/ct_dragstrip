@@ -8,10 +8,13 @@ PolyZone:
 https://github.com/mkafrin/PolyZone
 T-Notify:
 https://github.com/TasoOneAsia/t-notify
+QB-Input:
+https://github.com/qbcore-framework/qb-input
 
 Add the following to your server.cfg:
 ensure PolyZone
 ensure t-notify
+ensure qb-input
 ensure ct_dragstrip
 
 **NOTE** If you do not wish to use the Sandy Shores or Fort Zancudo Tracks, remove them from the stream folder. **DO NOT** Remove the [dragtree] folder.
@@ -20,8 +23,17 @@ Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
 
+Update from 3.5 to 4.0
+- Added Drag Strip Configuration Menu (qb-input dependent)
+- Added Class Restrictions to Drag Strip Configuration Menu
+- Added Class Restrictions to Drag Strip _config file (please update accordingly)
+- Added Functions for CT_DragStrip_ELO v2.0
+- Added Configurable /PersonalStats command
+- Increased Finish Line PolyZone Size for Both Tracks (help prevent racers not finishing properly)
+- Added a check for racers that quit the server in the middle of the race and reset the drag strip lights.
+
 Update from 3.4 to 3.5
-- Updated ESX Core Getter
+- Updated ESX core getter
 
 Update from 3.3 to 3.4
 - Added Support for ct_dragstrip_elo
