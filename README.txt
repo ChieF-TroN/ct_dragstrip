@@ -1,4 +1,7 @@
-To purchase CT_Dragstrip, please visit the link below!
+Thank you for your purchase of CT_DragStrip! v4.0
+
+If you have any questions, please post them on the CT_DragStrip FiveM Forums Thread:
+
 https://forum.cfx.re/t/paid-standalone-ct-dragstrip-fully-functioning-drag-light-bradenton-motorpark-speedway-fl2k/4769739
 
 Installation:
@@ -14,14 +17,19 @@ https://github.com/qbcore-framework/qb-input
 Add the following to your server.cfg:
 ensure PolyZone
 ensure t-notify
-ensure qb-input
+ensure qb-input 
 ensure ct_dragstrip
 
 **NOTE** If you do not wish to use the Sandy Shores or Fort Zancudo Tracks, remove them from the stream folder. **DO NOT** Remove the [dragtree] folder.
+**NOTE 2** You do not need to ensure qb-input if you're using ox_lib. If you are using ox_lib, make sure to uncomment the line in the fxmanifest.
 
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.0 to 4.1
+- Added ox_lib menu support.
+- Added cfg.inputMenu option to config.
 
 Update from 3.5 to 4.0
 - Added Drag Strip Configuration Menu (qb-input dependent)
