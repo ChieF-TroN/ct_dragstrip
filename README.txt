@@ -1,4 +1,4 @@
-Thank you for your purchase of CT_DragStrip! v4.0
+Thank you for your purchase of CT_DragStrip! v4.2
 
 If you have any questions, please post them on the CT_DragStrip FiveM Forums Thread:
 
@@ -26,6 +26,11 @@ ensure ct_dragstrip
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.1 to 4.2
+- Added support for custom drag lights. (USE AT OWN RISK) ***I DO NOT GIVE SUPPORT FOR CUSTOM LIGHTS***
+- Added Framework auto detection.
+
 
 Update from 4.0 to 4.1
 - Added ox_lib menu support.
