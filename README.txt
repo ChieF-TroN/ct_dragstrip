@@ -1,4 +1,4 @@
-Thank you for your purchase of CT_DragStrip! v4.2
+Thank you for your purchase of CT_DragStrip! v4.3
 
 If you have any questions, please post them on the CT_DragStrip FiveM Forums Thread:
 
@@ -26,6 +26,13 @@ ensure ct_dragstrip
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.2 to 4.3
+- Added a lot more configurable variables to the config for setting up custom drag lights.
+- Added commands to modify the drag lights individual light placement while in-game.
+- Added range modifiers per stage to improve custom light customization.
+- Added command to modify range modifier per stage while in-game.
+- Added commands to test the light system.
 
 Update from 4.1 to 4.2
 - Added support for custom drag lights. (USE AT OWN RISK) ***I DO NOT GIVE SUPPORT FOR CUSTOM LIGHTS***
