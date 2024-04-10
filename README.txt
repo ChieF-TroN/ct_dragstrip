@@ -1,4 +1,4 @@
-Thank you for your purchase of CT_DragStrip! v4.4
+Thank you for your purchase of CT_DragStrip! v4.5
 
 If you have any questions, please post them on the CT_DragStrip FiveM Forums Thread:
 
@@ -26,6 +26,11 @@ ensure ct_dragstrip
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.4 to 4.5
+- Added finish time to the chat/discord notifications.
+- Made a slight change to the framework initialization.
+- Cleaned up some of the chat code.
 
 Update from 4.3 to 4.4
 - Added the ability to modify lights per track.
