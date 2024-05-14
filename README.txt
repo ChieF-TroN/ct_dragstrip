@@ -27,6 +27,9 @@ Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
 
+Update from 4.5 to 4.6
+- Small bug fix
+
 Update from 4.4 to 4.5
 - Added finish time to the chat/discord notifications.
 - Made a slight change to the framework initialization.
