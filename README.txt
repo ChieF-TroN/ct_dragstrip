@@ -13,11 +13,14 @@ T-Notify:
 https://github.com/TasoOneAsia/t-notify
 QB-Input:
 https://github.com/qbcore-framework/qb-input
+OX_Target:
+https://github.com/overextended/ox_target
 
 Add the following to your server.cfg:
 ensure PolyZone
 ensure t-notify
 ensure qb-input 
+ensure ox_target
 ensure ct_dragstrip
 
 **NOTE** If you do not wish to use the Sandy Shores or Fort Zancudo Tracks, remove them from the stream folder. **DO NOT** Remove the [dragtree] folder.
@@ -26,6 +29,10 @@ ensure ct_dragstrip
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.6 to 4.7
+- Changed qb-input menu type for the Lane Selector to drop-down menu (should fix default selection issues)
+- Added support for ox_target to interact with the laptops instead of having floating text.
 
 Update from 4.5 to 4.6
 - Small bug fix
