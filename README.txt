@@ -1,4 +1,4 @@
-Thank you for your purchase of CT_DragStrip! v4.5
+Thank you for your purchase of CT_DragStrip! v4.8
 
 If you have any questions, please post them on the CT_DragStrip FiveM Forums Thread:
 
@@ -29,6 +29,9 @@ ensure ct_dragstrip
 Modifications:
 client/_polyzones.lua -- Add/Modify Polyzones for each track
 shared/_config.lua -- Add/Modify Light config, Edit client/server side config
+
+Update from 4.7 to 4.8
+- Fixed vRP compatibility issues. Check fxmanifest to uncomment the vRP lines.
 
 Update from 4.6 to 4.7
 - Changed qb-input menu type for the Lane Selector to drop-down menu (should fix default selection issues)
